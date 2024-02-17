@@ -1,34 +1,382 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
 
 /* header section */
-header{
-background-image: url('../Assests/Banner\ Image.png');
-width: 1200px;
-margin: auto;
-height: 500px;
-background-repeat: no-repeat;
-margin-top: 50px;
-border-radius: 20px;
-background-size: cover;
-padding: 100px;
+header {
+    background-image: url('../Assests/Banner\ Image.png');
+    width: 1200px;
+    margin: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-size: cover;
 }
 
-.header-text{
-text-align: center;
-padding-top: 200px;
+.header-text {
+    text-align: center;
+    padding-top: 200px;
 }
 
-.header-text h3{
+.header-text h3 {
     color: #fff;
     font-size: 25px;
 }
-.header-text h1{
+
+.header-text h1 {
     color: #fff;
     font-size: 45px;
 }
 
 /* header section end  */
+
+
+.discount {
+    margin: auto;
+    width: 1200px;
+    padding-top: 100px;
+}
+
+.discount-description {
+    text-align: center;
+}
+
+.discount-description .off {
+    text-transform: uppercase;
+    font-size: 45px;
+    color: red;
+    font-weight: bold;
+}
+
+.discount-description p {
+    text-transform: uppercase;
+    color: red;
+    padding: 5px;
+}
+
+.discount-description h1 {
+    text-transform: uppercase;
+}
+
+.discount img {
+    width: 500px;
+    height: 350px;
+    margin-left: 370px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/* end discount section  */
+
+
+.midnight-party {
+    background-image: url("../Assests/Vectorrr.png");
+    width: 1200px;
+    margin: auto;
+    height: 350px;
+    background-size: cover;
+    padding-bottom: 100px;
+    border-radius: 20px;
+
+}
+
+.midnight-party-description {
+    padding-left: 100px;
+    padding-top: 100px;
+    width: 600px;
+}
+
+.midnight-party-description h1 {
+    color: #fff;
+    font-size: 60px;
+
+}
+
+.midnight-party-description p {
+    color: #fff;
+    padding: 5px 0 45px 0;
+}
+
+.midnight-party-description a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+/* .midnight-party section end */
+
+.address {
+    background-image: linear-gradient(#FEE9E8, #fff);
+    height: 350px;
+    width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: 0px 4px #f4dbdb;
+    margin-bottom: 20px;
+}
+
+.address-details {
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.red {
+    color: red;
+}
+
+.address-details button {
+    margin-top: 20px;
+    background-color: red;
+    border: 0;
+    padding: 7px 9px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+/* address section end  */
+
+
+.offer {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.best-offer {
+    width: 650px;
+}
+
+
+.best-offer .offer-title {
+    color: red;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.best-offer h1 {
+    font-size: 45px;
+    padding-top: 10px;
+}
+
+.best-offer p {
+    color: rgb(60, 60, 60);
+    font-size: 22px;
+    padding-top: 10px;
+    line-height: 30px;
+
+}
+
+
+.offer-image img {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 350px;
+    height: 350px;
+}
+
+.offer-end h1 {
+    font-size: 45px;
+    padding-top: 10px;
+    color: red;
+}
+
+.offer-end p {
+    color: rgb(60, 60, 60);
+    font-size: 22px;
+    padding-top: 10px;
+    line-height: 30px;
+
+}
+
+/* offer section end  */
+
+
+.portfolio {
+    width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.portfolio-description h2 {
+    color: red;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.portfolio-description h1 {
+    font-size: 45px;
+    padding-top: 10px;
+}
+
+.portfolio-description p {
+    color: rgb(60, 60, 60);
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 30px;
+    width: 900px;
+    padding-bottom: 40px;
+}
+
+.portfolio-image-one img {
+    width: 370px;
+}
+
+.portfolio-image-one img:hover {
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.portfolio-image-one .two {
+    margin: 0 35px 0 35px;
+}
+
+.portfolio-image-two img {
+    width: 370px;
+}
+
+.portfolio-image-two .two {
+    margin: 20px 35px 0 35px;
+}
+
+.portfolio-image-two img:hover {
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+/* portfolio section end  */
+
+
+.subscribe-newsletter {
+    width: 1200px;
+    background:#FEE9E8;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.newsletter-details {
+    text-align: center;
+    padding: 100px;
+}
+
+.newsletter-details img {
+    padding-bottom: 20px;
+}
+
+.newsletter-details h1 {
+    font-size: 50px;
+}
+
+.newsletter-details p {
+    font-size: 22px;
+    color: rgb(62, 62, 62);
+    line-height: 40px;
+    width: 950px;
+    padding-bottom: 30px;
+}
+
+.add-email{
+    padding: 20px 90px 20px 35px;
+    border: 0;
+    background-color: #fff;
+    border-radius: 50px 0 0 50px;
+    box-shadow: 10px solid red;
+}
+
+.submit-email{
+    padding: 17px 50px 20px 5px;
+    margin-left: -5px;
+    border: none;
+    background-color: red;
+    border-radius: 0px 50px 50px 0px;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 25px;
+}
+/* end newsletter section  */
+
+
+footer{
+    background-color: #000;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.footer-section{
+    width: 1200px;
+    margin: auto;
+}
+
+.footer-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.contact{
+    line-height: 30px;
+}
+
+.footer-address{
+    font-size: 22px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.phone{
+    display: flex;
+
+}
+
+.phone p{
+    padding-left: 20px;
+    font-size: 22px;
+    color: #fff;
+    
+}
+
+.website{
+    display: flex;
+}
+
+.website p{
+    padding-left: 20px;
+    font-size: 22px;
+    color: #fff;
+    
+}
+
+.social-media{
+    padding: 35px 0 35px 0;
+    margin-left: 425px;
+}
+
+.social-media img{
+    padding-left: 20px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
+}
+
+.copyright p{
+    color: white;
+}
